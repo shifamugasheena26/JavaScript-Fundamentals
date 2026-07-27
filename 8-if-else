@@ -1,0 +1,102 @@
+//if else (equal to)
+const id = 100;
+if(id =="100") {
+    console.log("correct");
+}
+else{
+    console.log("incorrect");   //correct
+}
+
+//if else (not equal to)
+
+if(id !="101") {
+    console.log("correct");
+}
+else{
+    console.log("incorrect");   //correct
+}
+
+//equal to value and typee
+if(id ==="100") {
+    console.log("correct");
+}
+else{
+    console.log("incorrect");   //incorrect
+}
+
+//not equal to value and type
+if(id !=="101") {
+    console.log("correct");
+}
+else{
+    console.log("incorrect");   //correct
+}
+
+//test is undefined
+
+// let greet;
+// if(typeof greet ==="undefined"){
+//     console.log(`no i don't have a value ${greet}`); 
+//  }else{
+//     console.log(`i have a value ${greet}`);
+//  }
+
+
+//no i don't have a value undefined
+
+let greet="hello";
+if(typeof greet ==="undefined"){
+    console.log(`no i don't have a value ${greet}`); 
+ }else{
+    console.log(`i have a value ${greet}`);
+ } //i have a value hello
+
+
+ //greater or lesser 
+
+ if(100 >= 99){
+    console.log("correct");
+ }
+ else{
+    console.log("incorrect");
+ }  //correct 
+
+
+ //else if
+
+ const color = "blue";
+
+ if(color === "red" ){
+    console.log("Im red");
+ }
+ else if(color === "blue"){
+    console.log("Im blue");
+ }else{
+    console.log("I don't know the color");
+ }
+ 
+
+ //logical operator
+
+ //AND ==> && 
+ const name = "shifa";
+ const age = 20;
+
+ if(age >0 && age <12){
+    console.log(`${name} is a child`);
+ }else if(age >=13 && age <=19){
+    console.log(`${name} is a teen`);
+ }else if(age >=20 && age <100){
+    console.log(`${name} is a adult`);
+ }else{
+    console.log(`${name} is a dead`);
+ } // shifa ia a adult
+
+
+ //OR ==> || true or false
+
+ if(age < 16 || age >65){
+    console.log(`${name} can not run the race`);
+ }else{
+    console.log(`${name} can run the race`);
+ }  //shifa can run the  race because age is 20
