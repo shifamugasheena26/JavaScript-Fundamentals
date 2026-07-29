@@ -51,8 +51,4 @@ console.log(typeof person.address.pincode.code);//number
 // console.log(typeof person.pincode); //undefined
 // console.log(typeof person.code);//undefined    so proper ah kudukanu
 
-//number to string
-let a = String(2);
-console.log(a);
-console.log(typeof a); //string
 

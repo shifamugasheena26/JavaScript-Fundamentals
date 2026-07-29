@@ -1,9 +1,13 @@
 //string to number
 
+//number to string
+let a = String(2);
+console.log(a);
+console.log(typeof a); //string
+
 let b = Number("5");
 console.log(b);
 console.log(typeof b); //number
-
 
 let c = String(10+3);
 console.log(c);
