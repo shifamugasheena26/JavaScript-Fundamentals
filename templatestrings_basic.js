@@ -25,3 +25,18 @@ completed bca degree`;
 console.log(msg1);//shifa 
                    //Mugasheena
                    //completed bca degree
+
+
+//using html
+
+function greet(name){
+    return `Hello , ${name}`;
+}
+
+let html = `
+<div>
+<h1>${greet("shifa")}</h1>
+<p>welcome to the page</p>
+</div>
+`;
+console.log(html);
