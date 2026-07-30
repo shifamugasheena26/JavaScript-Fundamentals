@@ -29,14 +29,17 @@ console.log(msg1);//shifa
 
 //using html
 
+
 function greet(name){
-    return `Hello , ${name}`;
+    return `hello ${name}`;
 }
 
 let html = `
 <div>
-<h1>${greet("shifa")}</h1>
-<p>welcome to the page</p>
+<h1>greet(${"shifa"})</h1>
+<p>welcome to page</p>
 </div>
 `;
 console.log(html);
+
+ 
